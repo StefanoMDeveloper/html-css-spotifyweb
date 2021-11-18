@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -14,98 +15,271 @@
 </head>
 
 <body>
+    <div id="wrapper">
 
-    <!-- main -->
-    <main>
+        <!-- main -->
+        <main>
 
-        <div class="menu">
-            <img class="icon" src="img/favicon.ico" alt="">
-            <img src="img/home.svg" alt="">
-            <img src="img/search.svg" alt="">
-            <img src="img/libreria.svg" alt="">
-        </div>
-
-        <div class="left-main">
-            <div class="up-banner">
-                <div class="upgrade">
-                    <a href="#"> effettua l'upgrade</a>
-                </div>
-            </div>
-
-            <div class="main-container">
-                <ul>
-                    <li>in evidenza</li>
-                    <li>podcast</li>
-                    <li>classifiche</li>
-                    <li>generi e mood</li>
-                    <li>nuove uscite</li>
-                    <li>scopri</li>
-                </ul>
-            </div>
-        </div>
-
-    </main>
-    <!-- main -->
-
-    <!-- footer -->
-    <footer>
-
-        <div class="footer-container">
-            <div class="container-left">
-
-                <div class="song-info">
-                    <div class="img">
-                        <img src="img/sinister.jpeg" alt="">
+            <nav class="main-nav">
+                <section class="nav-top">
+                    <div class="nav-logo-mobile">
+                        <img class="icon" src="img/logo-small.svg" alt="">
+                    </div>
+                    <div class="nav-logo">
+                        <img class="icon" src="img/logo.svg" alt="">
                     </div>
 
-                    <div class="song-name">
-                        <h1>Sinister</h1>
-                        <span>Brano</span>
-                        <span>Nome</span>
+                    <nav class="nav-main-menu">
+                        <ul class="menu-list">
+                            <li class="active">
+                                <a href="#">
+                                    <img src="img/home.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/search.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/libreria.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </section>
+
+                <section class="nav-bottom">
+                    <div class="app-download">
+                        <a href="#">
+                            <img src="img/download.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-avatar">
+                            <img src="img/profile.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+            </nav>
+
+            <section class="left-main">
+                <div class="up-banner">
+                    <div class="upgrade">
+                        <a href="#"> effettua l'upgrade</a>
                     </div>
                 </div>
 
-                <div class="song-function">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-folder"></i>
-                </div>
-
-            </div>
-
-            <div class="container-middle">
-                <i class="fa-solid fa-shuffle"></i>
-                <i class="fa-solid fa-backward-step"></i>
-                <i class="fa-regular fa-circle-play"></i>
-                <i class="fa-solid fa-forward-step"></i>
-                <i class="fa-solid fa-arrow-rotate-right"></i>
-
-                <div class="slidecontainer">
-                    <span>0.25</span>
-                    <div class="slider">
-                        <hr id="hr-base">
-                        <hr id="hr-over">
+                <div class="main-container">
+                    <div class="main-menu">
+                        <ul>
+                            <li> <a href="#" class="here"> in evidenza </a></li>
+                            <li> <a href="#"> podcast </a></li>
+                            <li> <a href="#"> classifiche </a></li>
+                            <li> <a href="#"> generi e mood </a></li>
+                            <li> <a href="#"> nuove uscite </a></li>
+                            <li> <a href="#"> scopri </a></li>
+                        </ul>
                     </div>
-                    <span>4.35</span>
+
+
+                    <div class="song-list-container">
+                        <div class="song-list-title">
+                            <h1>Recently Played</h1>
+                        </div>
+                        <div class="song-list">
+
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Heavy Metal</h5>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/stranger.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Stranger Things Vol. 1 (a Netflix Original Series Soundtrack)</h5>
+                                    <p>Kyle Dixon & Michael Stein</p>
+                                </div>
+                            </div>
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/aquietplace.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>A quiet place</h5>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/split.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Split</h5>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/cure.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>A cure for wwlliness</h5>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/sinister.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Sinister</h5>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="song-list-title">
+                            <h1>Creato per John Doe</h1>
+                            <p>Più ascoltati, più accurati saranno i suggerimenti.</p>
+                        </div>
+                        <div class="song-list">
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/radar.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Release Radar</h5>
+                                </div>
+                            </div>
+
+                            <div class="song-item">
+                                <div>
+                                    <img src="img/mixdaily.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Daily Mix 1</h5>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="song-list-title">
+                            <h1>Artisti più popolari</h1>
+                            <p>Più ascoltati, più accurati saranno i suggerimenti.</p>
+                        </div>
+                        <div class="song-list">
+
+                            <div class="song-item">
+                                <div class="round">
+                                    <img src="img/youg.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Release Radar</h5>
+                                </div>
+                            </div>
+
+                            <div class="song-item">
+                                <div class="round">
+                                    <img src="img/einaudi.jpeg" alt="">
+                                </div>
+                                <div class="song-text">
+                                    <h5>Daily Mix 1</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
+
+
+            </section>
+
+        </main>
+        <!-- /main -->
+
+        <!-- footer -->
+        <footer>
+
+            <div class="footer-container">
+                <div class="container-left">
+
+                    <div class="song-info">
+                        <div class="img">
+                            <img src="img/sinister.jpeg" alt="">
+                        </div>
+
+                        <div class="song-name">
+                            <h1>Sinister</h1>
+                            <span>Brano</span>
+                            <span>Nome</span>
+                        </div>
+                    </div>
+
+                    <div class="song-function">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-folder"></i>
+                    </div>
+
+                </div>
+
+                <div class="container-middle">
+                    <div class="symbol-block">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <i class="fa-solid fa-backward-step"></i>
+                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-solid fa-arrow-rotate-right"></i>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <span>2.59</span>
+                        <div class="player-bar">
+                            <div class="genbar">
+                                <div class="focusbar"></div>
+                            </div>
+                        </div>
+                        <span>4.35</span>
+                    </div>
+                </div>
+
+                <div class="container-right">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <i class="fa-solid fa-tv"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <div class="player-bar">
+                        <div class="genbar">
+                            <div class="focusbar"></div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
-            <div class="container-right">
-                <i class="fa-solid fa-list-ul"></i>
-                <i class="fa-solid fa-tv"></i>
-                <i class="fa-solid fa-volume-high"></i>
-                <div class="slider">
-                    <hr id="hr-base">
-                    <hr id="hr-over">
-                </div>
-            </div>
+
+        </footer>
+        <!-- footer -->
 
 
-        </div>
-
-
-    </footer>
-    <!-- footer -->
-
+    </div>
 </body>
 
 </html>
