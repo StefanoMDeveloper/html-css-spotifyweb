@@ -52,6 +52,30 @@
                                 </li>
                             </ul>
 
+                            <section class="playlist-container visible">
+                                <h4>Playlist</h4>
+                                <div class="playlist-list-container">
+                                    <div class="new-playlist">
+                                        <div class="square">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        
+                                        <h6>Crea Playlist</h6>
+                                    </div>
+                                    <div class="playlist-list">
+                                        <ul>
+                                            <li><a href="#">Nome Playlist</a></li>
+                                            <li><a href="#">Nome Playlist</a></li>
+                                            <li><a href="#">Nome Playlist</a></li>
+                                            <li><a href="#">Nome Playlist</a></li>
+                                            <li><a href="#">Nome Playlist</a></li>
+                                            <li><a href="#">Nome Playlist</a></li>
+                                            <li><a href="#">Nome Playlist</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+
                         </nav>
                     </section>
 
@@ -59,13 +83,15 @@
                         <div class="app-download">
                             <a href="#">
                                 <img src="img/download.svg" alt="">
+                                <span class="visible-in-line">Installa app</span>
                             </a>
                         </div>
-
+                        <hr class="visible">
                         <div class="user">
                             <div class="user-avatar">
                                 <img src="img/profile.svg" alt="">
                             </div>
+                            <h5 class="visible-in-line">John Doe</h5>
                         </div>
                     </section>
                 </div>
@@ -99,8 +125,10 @@
 
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/metal_lifting.jpg" alt="">
+                                    
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>Heavy Metal</h5>
@@ -109,8 +137,9 @@
                             </div>
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/stranger.jpeg" alt="">
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>Stranger Things Vol. 1 (a Netflix Original Series Soundtrack)</h5>
@@ -119,8 +148,9 @@
                             </div>
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/aquietplace.jpeg" alt="">
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>A quiet place</h5>
@@ -129,8 +159,9 @@
                             </div>
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/split.jpeg" alt="">
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>Split</h5>
@@ -139,8 +170,9 @@
                             </div>
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/cure.jpeg" alt="">
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>A cure for wwlliness</h5>
@@ -149,8 +181,9 @@
                             </div>
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/sinister.jpeg" alt="">
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>Sinister</h5>
@@ -166,8 +199,9 @@
                         <div class="song-list">
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/radar.jpeg" alt="">
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>Release Radar</h5>
@@ -175,8 +209,9 @@
                             </div>
 
                             <div class="song-item">
-                                <div>
+                                <div class="opacity">
                                     <img src="img/mixdaily.jpeg" alt="">
+                                    <i class="fa-regular fa-circle-play visible2"></i>
                                 </div>
                                 <div class="song-text">
                                     <h5>Daily Mix 1</h5>
@@ -196,7 +231,7 @@
                                     <img src="img/youg.jpeg" alt="">
                                 </div>
                                 <div class="song-text">
-                                    <h5>Release Radar</h5>
+                                    <h5>Lana del Rey</h5>
                                 </div>
                             </div>
 
@@ -205,7 +240,7 @@
                                     <img src="img/einaudi.jpeg" alt="">
                                 </div>
                                 <div class="song-text">
-                                    <h5>Daily Mix 1</h5>
+                                    <h5>Ludovico Enaudi</h5>
                                 </div>
                             </div>
 
@@ -233,14 +268,15 @@
 
                         <div class="song-name">
                             <h1>Sinister</h1>
-                            <span>Brano</span>
-                            <span>Nome</span>
+                            <span><a href="#">Brano <br> Nome</a></span>
+                            
                         </div>
                     </div>
 
                     <div class="song-function">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-regular fa-folder"></i>
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-folder"></i></a>
+                        
                     </div>
 
                 </div>
@@ -249,7 +285,7 @@
                     <div class="symbol-block">
                         <i class="fa-solid fa-shuffle"></i>
                         <i class="fa-solid fa-backward-step"></i>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-regular fa-circle-play enance"></i>
                         <i class="fa-solid fa-forward-step"></i>
                         <i class="fa-solid fa-arrow-rotate-right"></i>
                     </div>
